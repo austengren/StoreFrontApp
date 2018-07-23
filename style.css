@@ -1,0 +1,160 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'Arial';
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    color: darkred;
+    font-size: 1.4em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+button#navbutton {
+    margin-left: 5px;
+    border-radius: 2px;
+    border: 0 none;
+    padding: .5em;
+    width: 8em;
+    color: white;
+    font-weight: bold;
+    background-color: #395D73;
+}
+
+.cart {
+    height: 2.8%;
+    margin: -9px 0.25em -0.9em 10px;
+    padding: 0.5em;
+}
+
+button#navbutton:hover {
+    background-color: #2BA967;
+    border: 1px solid #395D73;
+}
+
+buybutton {
+    color: blue;
+    background-color: #FFF;
+    display: inline-block;
+    margin: 0 0.75em 0 0;
+    padding: 0.2em 0.5em;
+    border: 1px solid blue;
+    text-transform: uppercase;
+}
+
+.star {
+    height: 2.8%;
+    margin: -9px -1.75em -0.8em 6.2em;
+    padding: 0.5em;
+}
+
+buybutton:hover {
+    background-color: lightblue;
+    border: 1px solid blue;
+}
+
+nav {
+    background-color: black;
+    margin-top: 8em;
+    padding: 2em;
+}
+
+nav img {
+    height: 300px;
+    position: relative;
+}
+
+#logo_box {
+    top: 4%;
+    left:40%;
+    height: 0;
+    position: absolute
+}
+
+nav input#searchbar {
+    border-radius: 3px;
+    border: .5px solid black;
+    padding: .5em;
+    width: 20%;
+    float: right;
+}
+
+#storetitle1 {
+    color: #745b2f;
+    font-size: 2.0em;
+    width: 411px;
+    margin: 1.5em 0.5em 0.5em 0.25em;
+    padding: 0.5em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
+
+#storetitle2 {
+    color: #745b2f;
+    font-size: 2.0em;
+    width: 374px;
+    margin: 17.5em 0.5em 0.5em 0.23em;
+    padding: 0.5em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
+
+section#mainsection {
+    margin: 0 4.0em 2.0em;
+    padding: 8.5em  0 2.0em 13.5em;
+    display: inline-block;
+    border-radius: 2em;
+}
+
+section div.panel{
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.5em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
+
+section div.panel img.drumType {
+    width: 100%;
+}
+
+img.socialIcon {
+    height: 3.5%;
+    margin: -.25em -1.0em 1.0em;
+    padding: -0.5em;
+}
+
+footer {
+    padding: 2em;
+    background: linear-gradient(#000,#161515);
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 4em;
+}
